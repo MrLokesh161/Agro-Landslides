@@ -1,0 +1,28 @@
+# Backend gitignore
+
+# Python virtualenv
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment
+.env
+.env.*
+
+# Alembic/ migrations if generated locally (keep migration source committed)
+# alembic/versions/
+
+# IDEs
+.vscode/
+.idea/
+
+# Database local files
+*.sqlite3
