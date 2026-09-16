@@ -1,1 +1,1 @@
-minLength={1}
+minLength={1}, required: true
